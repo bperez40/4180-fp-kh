@@ -5,5 +5,5 @@ compile_commands.json
 .cache
 mbed
 mbed-rtos
-wave_player
 SDFileSystem_OldbutworkswithRTOS
+waveplayer-kh
