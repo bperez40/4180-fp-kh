@@ -43,3 +43,5 @@
       Your browser does not support the video tag.
     </video> 
 </div>
+<p style="text-align: center;"><b>Figure 3.</b> Demo video of robot's drive system.</p>
+<p style="text-align: center;"><b>Figure 4.</b> Demo video of WAV player.</p>
