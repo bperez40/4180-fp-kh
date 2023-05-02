@@ -19,7 +19,7 @@
     src="assets/control.jpg" 
     alt="Bluefruit App">
 </div>
-<p style="text-align: left;"><b>Figure 1.</b> Control pad on the Bluefruit app. 1 skips songs, 2 rewinds songs, 3 stops and starts the current song.</p>
+<p style="text-align: left;"><b>Figure 1.</b> Control pad on the Bluefruit app. 1 pauses songs, 2 rewinds songs, 3 plas the previous song, 4 plays the next song.</p>
 
 
 
@@ -37,7 +37,9 @@
 ![Block Diagram](assets/BlockDiagram.png)
 <p style="text-align: center;"><b>Figure 2.</b> Block diagram showing system connections.</p>
 ## 3. Demo
-<video width="640" height="480" controls>
-  <source src="assets/cat_video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video> 
+<div style="text-align: center;">
+    <video width="640" height="480" controls>
+      <source src="assets/cat_video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video> 
+</div>
