@@ -37,8 +37,6 @@
 ## 2. Schematic
 
 ## 3. Demo
-<!--[![DJ Roomba Demo](assets/thumbnail.png)](https://youtu.be/2_f45RawExs "Cat Chases DJ Roomba") --> <!-- Old video tag -->
-
 <video width="640" height="480" controls>
   <source src="assets/cat_video.mp4" type="video/mp4">
   Your browser does not support the video tag.
