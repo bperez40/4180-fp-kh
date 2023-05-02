@@ -18,7 +18,6 @@
            width: 100%;"
     src="assets/control.jpg" 
     alt="Bluefruit App">
-</img>
 </div>
 <p style="text-align: left;"><b>Figure 1.</b> Control pad on the Bluefruit app. 1 skips songs, 2 rewinds songs, 3 stops and starts the current song.</p>
 
@@ -30,12 +29,13 @@
 &emsp;Additionally, the roomba is able to navigate a room autonomously. The robot moves via wheels attached to DC motors and powered by an h-bridge. It senses it's environment using bumper switches mounted to the front of the chassis. The following parts from the course are used on the robot:
 - [Dual TB6612FNG Motor Driver](https://www.sparkfun.com/products/14451)
 - [Bumper switches](https://www.pololu.com/product/3674)
-- DC motor
+- DC motors
 
 &emsp;By default, the robot is set to drive forward. When the robot senses an obstacle (via the bumpers), it turns in the direction opposite of the bumpers that triggered it. For example, if the robot's right set of bumpers make contact with something, it will turn counterclockwise. The robot runs this procedure indefinitely.
 
 ## 2. Schematic
-
+![Block Diagram](assets/BlockDiagram.png)
+<p style="text-align: center;"><b>Figure 2.</b> Block diagram showing system connections.</p>
 ## 3. Demo
 <video width="640" height="480" controls>
   <source src="assets/cat_video.mp4" type="video/mp4">
