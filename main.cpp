@@ -1,10 +1,12 @@
 
 #include "Thread.h"
 #include "mbed.h"
+#include "mbed2/238/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768/PinNames.h"
 #include "rtos.h"
 #include "SDFileSystem.h"
 #include "wave_player.h"
 #include "uLCD_4DGL.h"
+
 #include "Motor.h"
 #include "PinDetect.h"
 #include <cstdio>
@@ -19,6 +21,7 @@ Motor rm(p21, p19, p20); // pwm, fwd, rev
 Motor lm(p22, p23, p24); // pwm, fwd, rev
 
 SDFileSystem sd(p5, p6, p7, p8, "sd"); //SD card
+
 uLCD_4DGL uLCD(p9, p10, p11);  // uLCD
 
 AnalogOut DACout(p18);
