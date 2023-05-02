@@ -11,7 +11,21 @@
 - [Bluefruit LE UART Friend](https://os.mbed.com/users/4180_1/notebook/adafruit-bluefruit-le-uart-friend---bluetooth-low-/)
 - Potentiometer for volume control
 
-&emsp;The WAV player loads .wav files on the SD card and uses PWM to transmit the song to the audio amp. Muliple songs are held on the SD card. Songs can be paused or skipped using the Adafruit bluetooth app. When mTrain receives a command from the bluetooth module, it will execute the command, allowing for remote control. Note that the remote control only extends as far as the WAV player functionality.  
+&emsp;The WAV player loads .wav files on the SD card and uses PWM to transmit the song to the audio amp. Muliple songs are held on the SD card. Songs can be paused or skipped using the Adafruit bluetooth app. When mTrain receives a command from the bluetooth module, it will execute the command, allowing for remote control. Note that the remote control only extends as far as the WAV player functionality.
+<div style="text-align: center;"> <!-- Shows image, div sets the image to center align -->
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 100%;"
+    src="assets/control.jpg" 
+    alt="Bluefruit App">
+</img>
+</div>
+<p style="text-align: left;"><b>Figure 1.</b> Control pad on the Bluefruit app. 1 skips songs, 2 rewinds songs, 3 stops and starts the current song.</p>
+
+
+
   
 &emsp;The uLCD is used to display song progress. It consists of a green bar that progresses with respect to the place in the song, as you would expect from a progress bar.
 ### b. Room Navigation
@@ -25,4 +39,9 @@
 ## 2. Schematic
 
 ## 3. Demo
-[![DJ Roomba Demo](assets/thumbnail.png)](https://youtu.be/2_f45RawExs "Cat Chases DJ Roomba")
+<!--[![DJ Roomba Demo](assets/thumbnail.png)](https://youtu.be/2_f45RawExs "Cat Chases DJ Roomba") -->
+
+<video width="320" height="240" controls>
+  <source src="assets/cat_video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video> 
