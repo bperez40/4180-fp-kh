@@ -1,6 +1,3 @@
-###
-# DJ Roomba
-&emsp;The function of our robot is to drive around while playing music, hence, it's called DJ Roomba.
 ## 1. Systems Overview
 &emsp;All systems are controlled by the [mbed LPC1768](https://os.mbed.com/platforms/mbed-LPC1768/), which is serving as our primary microcontroller in this project. The robot is powered by two different sets of batteries; a 6 volt battery pack to power the uLCD and bluetooth module, and a 9 volt battery to power the rest of the robot's systems.
 ### a. WAV Player
