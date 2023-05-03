@@ -44,4 +44,10 @@
     </video> 
 </div>
 <p style="text-align: center;"><b>Figure 3.</b> Demo video of robot's drive system.</p>
+<div style="text-align: center;">
+    <video width="640" height="480" controls>
+      <source src="assets/media-demo-c.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video> 
+</div>
 <p style="text-align: center;"><b>Figure 4.</b> Demo video of WAV player.</p>
